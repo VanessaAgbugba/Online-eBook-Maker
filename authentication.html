@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/authentication.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+          <li class="head1"><a class="menubar-link" href="index.html">Home</a></li>
+          <li class="head2"><a class="menubar-link" href="authentication.html">Sign In</a></li>
+          <li class="head3"><a class="menubar-link" href="new-book.html">Create eBook</a></li>
+        </ul>
+      </nav>
+
+
+    <div class="form-container">
+        <form id="login-form" class="login-form">
+          <h2>Login</h2>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button type="submit" onclick="alertmessageSI()" class="b1"> <a href="new-book.html"></a> Login </a></button>
+        </form>
+      
+        <form id="signup-form" class="signup-form">
+          <h2>Sign Up</h2>
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button type="submit" onclick="alertmessageSU()">Sign Up</button>
+        </form>
+      </div>
+
+      <div id="new-content" class="new-content">
+        <p>You have already signed in! Click <a href="new-book.html" class="already-link">HERE</a> to start creating ebooks!! .</p>
+      </div>
+
+      <script>
+        function changeContent() {
+            window.location = "new-book.html";
+
+        }
+
+        function alertMessageSU() {
+            alert("You have successfully signed up");
+        }
+
+        function alertmessageSI() {
+            alert("You have successfully signed in! Now start creating ebooks!")
+        }
+      </script>
+      
+</body>
+</html>
