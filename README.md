@@ -1,1 +1,2 @@
 # Online-eBook-Maker
+The motivation of this project is to address the challenges and limitations of traditional hard copy books. While print books have been a popular medium for centuries, they present several issues such as limited distribution, high printing costs, and environmental concerns. An online ebook maker offers a solution to these problems by providing an alternative way to create, distribute, and access digital books.
